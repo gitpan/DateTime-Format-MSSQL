@@ -1,0 +1,20 @@
+{
+   "resources" : {
+      "repository" : "http://github.com/frioux/DateTime-Format-MSSQL"
+   },
+   "meta-spec" : {
+      "version" : 1.4,
+      "url" : "http://module-build.sourceforge.net/META-spec-v1.4.html"
+   },
+   "generated_by" : "Dist::Zilla version 1.092680",
+   "version" : "0.092950",
+   "name" : "DateTime-Format-MSSQL",
+   "author" : [
+      "Arthur Axel \"fREW\" Schmidt <frioux+cpan@gmail.com>"
+   ],
+   "license" : "perl",
+   "requires" : {
+      "DateTime::Format::Strptime" : "0"
+   },
+   "abstract" : "parse and format MSSQL DATETIME's"
+}
