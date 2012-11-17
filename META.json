@@ -1,20 +1,43 @@
 {
-   "resources" : {
-      "repository" : "http://github.com/frioux/DateTime-Format-MSSQL"
-   },
-   "meta-spec" : {
-      "version" : 1.4,
-      "url" : "http://module-build.sourceforge.net/META-spec-v1.4.html"
-   },
-   "generated_by" : "Dist::Zilla version 1.092680",
-   "version" : "0.092950",
-   "name" : "DateTime-Format-MSSQL",
+   "abstract" : "parse and format MSSQL DATETIME's",
    "author" : [
       "Arthur Axel \"fREW\" Schmidt <frioux+cpan@gmail.com>"
    ],
-   "license" : "perl",
-   "requires" : {
-      "DateTime::Format::Strptime" : "0"
+   "dynamic_config" : 0,
+   "generated_by" : "Dist::Zilla version 4.300028, CPAN::Meta::Converter version 2.120921",
+   "license" : [
+      "perl_5"
+   ],
+   "meta-spec" : {
+      "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
+      "version" : "2"
    },
-   "abstract" : "parse and format MSSQL DATETIME's"
+   "name" : "DateTime-Format-MSSQL",
+   "prereqs" : {
+      "configure" : {
+         "requires" : {
+            "ExtUtils::MakeMaker" : "6.30"
+         }
+      },
+      "develop" : {
+         "requires" : {
+            "Test::Pod" : "1.41"
+         }
+      },
+      "runtime" : {
+         "requires" : {
+            "DateTime::Format::Strptime" : "0"
+         }
+      }
+   },
+   "release_status" : "stable",
+   "resources" : {
+      "repository" : {
+         "type" : "git",
+         "url" : "git://github.com/frioux/DateTime-Format-MSSQL",
+         "web" : "http://github.com/frioux/DateTime-Format-MSSQL"
+      }
+   },
+   "version" : "1.000000"
 }
+
